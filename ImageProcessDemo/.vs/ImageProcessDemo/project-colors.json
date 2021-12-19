@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "abdfa688-7b62-4ad6-8eb6-7aae3132679b": {
+      "ProjectGuid": "abdfa688-7b62-4ad6-8eb6-7aae3132679b",
+      "DisplayName": "ImageProcessDemo",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

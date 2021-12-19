@@ -1,0 +1,10 @@
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\obj\Debug\ImageProcessDemo.csproj.AssemblyReference.cache
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\obj\Debug\ImageProcessDemo.csproj.SuggestedBindingRedirects.cache
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\obj\Debug\ImageProcessDemo.csproj.GenerateResource.cache
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\obj\Debug\ImageProcessDemo.Properties.Resources.resources
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\obj\Debug\ImageProcessDemo.csproj.CoreCompileInputs.cache
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\bin\Debug\ImageProcessDemo.exe.config
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\bin\Debug\ImageProcessDemo.exe
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\bin\Debug\ImageProcessDemo.pdb
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\obj\Debug\ImageProcessDemo.exe
+D:\Code\JwkCode\ImageProcessDemo\ImageProcessDemo\ImageProcessDemo\obj\Debug\ImageProcessDemo.pdb

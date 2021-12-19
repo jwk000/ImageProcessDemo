@@ -205,10 +205,10 @@ namespace ImageProcessDemo
         // 自认为第三种方法做出来的黑白效果图像最 "真实".
         private void BlackWhite(object sender, EventArgs e)
         {
-            int Height = this.pictureBox2.Image.Height;
-            int Width = this.pictureBox2.Image.Width;
-            Bitmap newBitmap = new Bitmap(Width, Height);
             Bitmap oldBitmap = new Bitmap("1.jpg");
+            int Height = oldBitmap.Height;
+            int Width = oldBitmap.Width;
+            Bitmap newBitmap = new Bitmap(Width, Height);
             Color pixel;
             for (int x = 0; x < Width; x++)
                 for (int y = 0; y < Height; y++)
@@ -267,10 +267,10 @@ namespace ImageProcessDemo
         //原理: 当前像素点与周围像素点的颜色差距较大时取其平均值.
         private void RouHua(object sender, EventArgs e)
         {
-            int Height = this.pictureBox2.Image.Height;
-            int Width = this.pictureBox2.Image.Width;
-            Bitmap bitmap = new Bitmap(Width, Height);
             Bitmap MyBitmap = new Bitmap("1.jpg");
+            int Height = MyBitmap.Height;
+            int Width = MyBitmap.Width;
+            Bitmap bitmap = new Bitmap(Width, Height);
             Color pixel;
             //高斯模板
             int[] Gauss = {
@@ -311,10 +311,10 @@ namespace ImageProcessDemo
         //原理:突出显示颜色值大(即形成形体边缘)的像素点.
         private void RuiHua(object sender, EventArgs e)
         {
-            int Height = this.pictureBox2.Image.Height;
-            int Width = this.pictureBox2.Image.Width;
-            Bitmap newBitmap = new Bitmap(Width, Height);
             Bitmap oldBitmap = new Bitmap("1.jpg");
+            int Height = oldBitmap.Height;
+            int Width = oldBitmap.Width;
+            Bitmap newBitmap = new Bitmap(Width, Height);
             Color pixel;
             //拉普拉斯模板
             int[] Laplacian = { -1, -1, -1, -1, 9, -1, -1, -1, -1 };
@@ -350,10 +350,10 @@ namespace ImageProcessDemo
         {
             System.Random MyRandom = new Random();
 
-            int Height = this.pictureBox2.Image.Height;
-            int Width = this.pictureBox2.Image.Width;
-            Bitmap newBitmap = new Bitmap(Width, Height);
             Bitmap oldBitmap = new Bitmap("1.jpg");
+            int Height = oldBitmap.Height;
+            int Width = oldBitmap.Width;
+            Bitmap newBitmap = new Bitmap(Width, Height);
             Color pixel;
             for (int x = 1; x < Width - 1; x++)
                 for (int y = 1; y < Height - 1; y++)
