@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ImageProcessDemo",
+    "\\ImageProcessDemo\\ImageProcessDemo"
   ],
-  "SelectedNode": "\\ImageProcessDemo.sln",
+  "SelectedNode": "\\ImageProcessDemo\\ImageProcessDemo\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

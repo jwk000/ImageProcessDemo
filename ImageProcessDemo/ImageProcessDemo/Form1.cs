@@ -326,7 +326,8 @@ namespace ImageProcessDemo
                     for (int col = -1; col <= 1; col++)
                         for (int row = -1; row <= 1; row++)
                         {
-                            pixel = oldBitmap.GetPixel(x + row, y + col); r += pixel.R * Laplacian[Index];
+                            pixel = oldBitmap.GetPixel(x + row, y + col); 
+                            r += pixel.R * Laplacian[Index];
                             g += pixel.G * Laplacian[Index];
                             b += pixel.B * Laplacian[Index];
                             Index++;
